@@ -1,0 +1,52 @@
+/* style.css */
+body {
+background-color: #fff8f0;
+}
+.hero-bg {
+background-image: url('https://images.unsplash.com/photo-1601924582971-c4ac6ee5d68e');
+background-size: cover;
+background-position: center;
+}
+.card img {
+width: 100%;
+height: 14rem;
+object-fit: cover;
+}
+.card {
+background-color: white;
+border-radius: 1rem;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: transform 0.3s;
+}
+.card:hover {
+transform: scale(1.05);
+}
+.price {
+color: #f97316;
+font-weight: 600;
+}
+.input {
+width: 100%;
+border: 1px solid #ccc;
+padding: 0.75rem;
+border-radius: 0.5rem;
+}
+.btn {
+width: 100%;
+background-color: #f97316;
+color: white;
+padding: 0.75rem;
+border: none;
+border-radius: 0.5rem;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+.btn:hover {
+background-color: #ea580c;
+}
+
+
+/* script.js */
+/* JavaScript code removed from CSS file. Place it in a separate .js file. */
